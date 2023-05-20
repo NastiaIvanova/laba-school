@@ -1,9 +1,5 @@
 package org.example;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Team team1 = new Team("Команда 1");
@@ -29,17 +25,13 @@ public class Main {
                 5. Снежкова Мария Юрьевна
                 """;
         System.out.println(text);
-
         team.inputCompetings();
-
         int summa = team.getSummaTime();
         System.out.println("Сумма общего времени первой команды: " + summa);
         return summa;
     }
 
     static int teamNumber2(Team team) {
-
-
         System.out.println("Список спортсменов второй команды: ");
         String text2 = """
                 1. Сергеев Дмитрий Анатольевич
@@ -49,9 +41,7 @@ public class Main {
                 5. Владов Владлен Владиславович
                 """;
         System.out.println(text2);
-
         team.inputCompetings();
-
         int summa = team.getSummaTime();
         System.out.println("Сумма общего времени второй команды: " + summa);
         System.out.println();
