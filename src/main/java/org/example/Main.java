@@ -35,13 +35,5 @@ public class Main {
             System.out.println("Победила дружба!!! Результаты команд: " + result2 + " сек."); // Добавлена информативность выводу
         }
     }
-
-    static int teamNumber(Team team, int number) {
-        team.inputCompetings();
-        int summa = team.getSummaTime();
-        System.out.println("Сумма общего времени команды “+number+”: " + summa);
-        System.out.println();
-        return summa;
-    }
 }
 
