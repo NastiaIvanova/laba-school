@@ -19,7 +19,7 @@ public class Main {
                 new Competing("Павлова Елена Сергеевна"),
                 new Competing("Владов Владлен Владиславович")
         );
-
+        System.out.println("Программа запущена...");
         Team team1 = new Team("Команда 1", sportsmansOfTeam1);
         Team team2 = new Team("Команда 2", sportsmansOfTeam2);
         team1.inputCompetings(); // Вызываем ввод здесь
